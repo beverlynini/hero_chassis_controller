@@ -1,0 +1,52 @@
+# clion,ide local settings
+.idea/
+.vscode/
+cmake-build-*/
+
+# catkin workspace
+build/
+devel/
+install/
+logs/
+.catkin_tools/
+
+# cmake gnerate doc
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTsestTestfile.cmake
+CTestConfiguration.ini
+CTestCustom.cmake
+
+# Ninja
+build.ninja
+.ninja_deps
+.ninja_log
+compile_commands.json
+
+# mistake cmake doc in src
+atomic_configure/
+catkin_generated/
+gtest/
+test_results/
+.cmake/
+
+# c/c++ generate
+*.o
+*.so
+*.a
+*.d
+
+# 编辑器临时文件
+*.swp
+*.swo
+*~
+
+# macos,windows sys doc
+.DS_Store
+Thumbs.db
+
+# python缓存
+__pycache__/
+*.pyc
+*.pyo

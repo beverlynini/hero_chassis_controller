@@ -17,8 +17,18 @@
     <depend>controller_interface</depend>
     <depend>hardware_interface</depend>
     <depend>pluginlib</depend>
+    <depend>control_toolbox</depend>
+    <depend>realtime_tools</depend>
+    <depend>std_msgs</depend>
 
     <exec_depend>xacro</exec_depend>
+
+    <exec_depend>rm_description_for_task</exec_depend>
+    <exec_depend>rm_gazebo</exec_depend>
+    <exec_depend>controller_manager</exec_depend>
+    <exec_depend>joint_state_controller</exec_depend>
+    <exec_depend>robot_state_publisher</exec_depend>
+
     <export>
         <controller_interface plugin="${prefix}/hero_chassis_controller_plugins.xml"/>
     </export>

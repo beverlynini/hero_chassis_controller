@@ -1,0 +1,33 @@
+controller:
+  hero_chassis_controller:
+    type: hero_chassis_controller/HeroChassisController
+    max_effort: 5.0
+    pid:
+      front_left:
+        p: 2.0
+        i: 0.1
+        d: 0.0
+        i_clamp: 1.0
+        antiwindup: true
+      front_right:
+        p: 2.0
+        i: 0.1
+        d: 0.0
+        i_clamp: 1.0
+        antiwindup: true
+      back_left:
+        p: 2.0
+        i: 0.1
+        d: 0.0
+        i_clamp: 1.0
+        antiwindup: true
+      back_right:
+        p: 2.0
+        i: 0.1
+        d: 0.0
+        i_clamp: 1.0
+        antiwindup: true
+
+  joint_state_controller: 
+    type: joint_state_controller/JointStateController
+    publish_rate: 50

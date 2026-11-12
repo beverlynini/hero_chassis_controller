@@ -13,6 +13,9 @@ find_package(catkin REQUIRED COMPONENTS
   controller_interface
   hardware_interface
   pluginlib
+  control_toolbox
+  realtime_tools
+  std_msgs
 )
 
 catkin_package(
@@ -23,6 +26,9 @@ catkin_package(
      controller_interface
      hardware_interface
      pluginlib
+     control_toolbox
+     realtime_tools
+     std_msgs
 )
 
 include_directories(
